@@ -1,0 +1,31 @@
+.keyhole .strip .photo img{
+	max-width: 750px;
+}
+.keyhole{
+	width: 750px;
+	height: 500px;
+	overflow: hidden;
+	position: relative;
+	z-index:2;
+}
+.strip{
+	width: 3750px; /*need use JS to place hard code*/
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	transition: all 1s ease;
+	z-index:1;
+}
+.photo{
+	float: left;	
+	object-fit:fill;
+}
+.btn img, #next{
+	width: 50px;
+}
+#next{
+	margin-left: 10px; 
+}
+#back{
+	margin-right: 10px;
+}
